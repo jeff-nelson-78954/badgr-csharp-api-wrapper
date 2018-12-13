@@ -1,0 +1,10 @@
+C:\tfs\Badgr\Main\Badgr\Badgr.Utilities\bin\Debug\Badgr.Utilities.dll
+C:\tfs\Badgr\Main\Badgr\Badgr.Utilities\bin\Debug\Badgr.Utilities.pdb
+C:\tfs\Badgr\Main\Badgr\Badgr.Utilities\bin\Debug\Newtonsoft.Json.dll
+C:\tfs\Badgr\Main\Badgr\Badgr.Utilities\bin\Debug\Newtonsoft.Json.pdb
+C:\tfs\Badgr\Main\Badgr\Badgr.Utilities\bin\Debug\Newtonsoft.Json.xml
+C:\tfs\Badgr\Main\Badgr\Badgr.Utilities\obj\Debug\Badgr.Utilities.csprojAssemblyReference.cache
+C:\tfs\Badgr\Main\Badgr\Badgr.Utilities\obj\Debug\Badgr.Utilities.csproj.CoreCompileInputs.cache
+C:\tfs\Badgr\Main\Badgr\Badgr.Utilities\obj\Debug\Badgr.Utilities.csproj.CopyComplete
+C:\tfs\Badgr\Main\Badgr\Badgr.Utilities\obj\Debug\Badgr.Utilities.dll
+C:\tfs\Badgr\Main\Badgr\Badgr.Utilities\obj\Debug\Badgr.Utilities.pdb

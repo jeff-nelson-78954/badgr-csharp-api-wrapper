@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{54B746F1-A9BF-4A99-A5E7-6038A6F6CFF9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BadgrV1.Api</RootNamespace>
+    <AssemblyName>BadgrV1.Api</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\AssertionBatchAdd\AssertionBatchAddAssertion.cs" />
+    <Compile Include="Model\AssertionBatchAdd\AssertionBatchAddEvidence.cs" />
+    <Compile Include="Model\Assertion\Assertion.cs" />
+    <Compile Include="Model\Assertion\AssertionAdd.cs" />
+    <Compile Include="Model\AssertionBatchAdd\AssertionBatchAdd.cs" />
+    <Compile Include="Model\Assertion\AssertionEvidence.cs" />
+    <Compile Include="Model\Assertion\AssertionProvider.cs" />
+    <Compile Include="Model\Assertion\AssertionUpdate.cs" />
+    <Compile Include="Model\Badge\Badge.cs" />
+    <Compile Include="Model\Badge\BadgeAdd.cs" />
+    <Compile Include="Model\Badge\BadgeAlignment.cs" />
+    <Compile Include="Model\Badge\BadgeExpires.cs" />
+    <Compile Include="Model\Badge\BadgeProvider.cs" />
+    <Compile Include="Model\Badge\BadgeUpdate.cs" />
+    <Compile Include="Model\Issuer\Issuer.cs" />
+    <Compile Include="Model\Issuer\IssuerAdd.cs" />
+    <Compile Include="Model\Issuer\IssuerProvider.cs" />
+    <Compile Include="Model\Issuer\IssuerStaff.cs" />
+    <Compile Include="Model\BadgrApiEntity.cs" />
+    <Compile Include="Model\BadgrEntity.cs" />
+    <Compile Include="Model\Issuer\IssuerStaffUser.cs" />
+    <Compile Include="Model\Issuer\IssuerUpdate.cs" />
+    <Compile Include="Model\Token.cs" />
+    <Compile Include="Model\User\User.cs" />
+    <Compile Include="Model\User\UserEmail.cs" />
+    <Compile Include="Model\User\UserEmailAdd.cs" />
+    <Compile Include="Model\User\UserEmailUpdate.cs" />
+    <Compile Include="Model\User\UserPasswordReset.cs" />
+    <Compile Include="Model\User\UserPasswordResetRequest.cs" />
+    <Compile Include="Model\User\UserProvider.cs" />
+    <Compile Include="Model\User\UserUpdate.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Badgr.Utilities\Badgr.Utilities.csproj">
+      <Project>{CEA3624C-EBC7-485A-8AAD-1BF8A49C6A3B}</Project>
+      <Name>Badgr.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

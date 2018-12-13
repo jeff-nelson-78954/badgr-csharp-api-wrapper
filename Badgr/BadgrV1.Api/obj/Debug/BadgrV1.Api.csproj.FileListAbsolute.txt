@@ -1,0 +1,12 @@
+C:\tfs\Badgr\Main\Badgr\BadgerV1.Api\bin\Debug\BadgrV1.Api.dll
+C:\tfs\Badgr\Main\Badgr\BadgerV1.Api\bin\Debug\BadgrV1.Api.pdb
+C:\tfs\Badgr\Main\Badgr\BadgerV1.Api\bin\Debug\Badgr.Utilities.dll
+C:\tfs\Badgr\Main\Badgr\BadgerV1.Api\bin\Debug\Newtonsoft.Json.dll
+C:\tfs\Badgr\Main\Badgr\BadgerV1.Api\bin\Debug\Badgr.Utilities.pdb
+C:\tfs\Badgr\Main\Badgr\BadgerV1.Api\bin\Debug\Newtonsoft.Json.pdb
+C:\tfs\Badgr\Main\Badgr\BadgerV1.Api\bin\Debug\Newtonsoft.Json.xml
+C:\tfs\Badgr\Main\Badgr\BadgerV1.Api\obj\Debug\BadgrV1.Api.csprojAssemblyReference.cache
+C:\tfs\Badgr\Main\Badgr\BadgerV1.Api\obj\Debug\BadgrV1.Api.csproj.CoreCompileInputs.cache
+C:\tfs\Badgr\Main\Badgr\BadgerV1.Api\obj\Debug\BadgrV1.Api.csproj.CopyComplete
+C:\tfs\Badgr\Main\Badgr\BadgerV1.Api\obj\Debug\BadgrV1.Api.dll
+C:\tfs\Badgr\Main\Badgr\BadgerV1.Api\obj\Debug\BadgrV1.Api.pdb
